@@ -1,0 +1,29 @@
+/* Write your CSS here */
+
+.heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.head {
+  text-align: center;
+}
+.list-item {
+  list-style-type: none;
+  background-color: grey;
+  margin: 12px;
+  padding: 6px;
+  border-radius: 12px;
+}
+.clock {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
